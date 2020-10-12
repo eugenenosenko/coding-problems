@@ -13,7 +13,7 @@ private fun findPair(arr: IntArray, sum: Int): IntArray {
 class FindPairWithSumXTest {
 
     @Test
-    internal fun `should return correct two numbers`() {
+    internal fun `should return correct 10 and 7 for an array of {10, 15, 3, 7} `() {
         val sum = 17
         val array = intArrayOf(10, 15, 3, 7)
 
